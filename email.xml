@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<emails>  
+<email>  
+  <to>Liya</to>  
+  <from>Shruthi</from>  
+  <heading>Hello</heading>  
+  <body>can we go out!!!</body>  
+</email>  
+<email>  
+  <to>Kiran</to>  
+  <from>leya</from>  
+  <heading>Birth day wish</heading>  
+  <body>Happy birth day!!</body>  
+</email>  
+<email>  
+  <to>James</to>  
+  <from>omana</from>  
+  <heading>heyy</heading>  
+  <body>heyy...long time no see...</body>  
+</email>  
+<email>  
+  <to>Kate</to>  
+  <from>Kumar</from>  
+  <heading>missing</heading>  
+  <body>please come back..</body>  
+</email>  
+</emails>  

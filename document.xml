@@ -1,0 +1,14 @@
+<?xml version="1.0"?>  
+<college>  
+  <student>  
+      <firstname>Shruthi</firstname>  
+      <lastname>Stephen</lastname>  
+      <contact>8589996207</contact>  
+      <email>hujkii@gmail.com</email>  
+      <address>  
+           <city>Thoppumapdy</city>  
+           <state>	Kerala</state>  
+           <pin>682005</pin>  
+      </address>  
+  </student>  
+</college>  
