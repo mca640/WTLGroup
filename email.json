@@ -1,0 +1,30 @@
+{
+	"emails": {
+		"email": [
+			{
+				"to": "Liya",
+				"from": "Shruthi",
+				"heading": "Hello",
+				"body": "can we go out!!!"
+			},
+			{
+				"to": "Kiran",
+				"from": "leya",
+				"heading": "Birth day wish",
+				"body": "Happy birth day!!"
+			},
+			{
+				"to": "James",
+				"from": "omana",
+				"heading": "heyy",
+				"body": "heyy...long time no see..."
+			},
+			{
+				"to": "Kate",
+				"from": "Kumar",
+				"heading": "missing",
+				"body": "please come back.."
+			}
+		]
+	}
+}

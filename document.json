@@ -1,0 +1,15 @@
+{
+	"college": {
+		"student": {
+			"firstname": "Shruthi",
+			"lastname": "Stephen",
+			"contact": "8589996207",
+			"email": "hujkii@gmail.com",
+			"address": {
+				"city": "Thoppumapdy",
+				"state": "Kerala",
+				"pin": "682005"
+			}
+		}
+	}
+}

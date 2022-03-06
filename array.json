@@ -1,0 +1,30 @@
+{
+	"resources": {
+		"string": [
+			{
+				"_name": "Welcome",
+				"__text": "Welcome"
+			},
+			{
+				"_name": "Web_name",
+				"__text": "General View"
+			}
+		],
+		"string-array": {
+			"List": [
+				"Berlin",
+				"Vienna",
+				"Stockholm",
+				"Richard Nixon",
+				"Prague",
+				"Rome",
+				"Budapest",
+				"Amsterdam",
+				"London",
+				"Norway",
+				"Denmark"
+			],
+			"_name": "EuropeCountry_array"
+		}
+	}
+}
