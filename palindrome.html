@@ -1,0 +1,70 @@
+<!Doctype html>  
+<html lang = "en">  
+  
+<head>  
+    <title> Palindrome Program in JavaScript </title>  
+    <style>
+
+
+body {
+  background-image: url("image/m.jpg");
+  background-size: cover;
+}	
+    h1 {  
+    text-align: center;  
+    padding: 30px;  
+    
+    color: white;  
+    }  
+      
+    .palindrome {  
+    margin: auto;  
+    width: 40%;  
+    border: 3px solid gray;  
+    border-radius: 5px;  
+    padding: 30px;
+	 color: white;
+    }  
+      
+    #palindrome {  
+    width: 100%;  
+    border: 3px solid gray;  
+    border-radius: 5px;  
+    padding: 6px;  
+    }  
+    </style>  
+      
+    </head>  
+      
+    <body>  
+        <h1> Palindrome </h1>  
+        <div class="palindrome">  
+        <label> Enter any string or number : </label> <br> <br>  
+        <input id= "palindrome"> <br> <br>  
+        <button type = "button" onclick = "palindrome()" > Check </button>  
+        </div>  
+        </body>  
+        </html>  
+          
+        <script>  
+        function palindrome() {  
+        var a, b, no, temp = 0;  
+        no = Number(document.getElementById ("palindrome").value);  
+        b = no;  
+        while (no > 0)  
+        {  
+        a = no % 10;
+temp = (temp*10) + a; 		
+        no = parseInt( no / 10);  
+         
+        }  
+        if (temp == b)  
+        {  
+        alert( "yess it is palindrome");  
+        }  
+        else  
+        {  
+        alert ("not a pailindrome");  
+        }  
+        }  
+        </script>  
