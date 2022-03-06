@@ -1,0 +1,94 @@
+<html>
+<head>
+<title>upload you items</title>
+<style type="text/css">
+*{
+padding: 2px;
+margin: 2px;;
+font-family;sans-serif;
+}
+body{
+    background-image:url("image/sale.jpg");
+    background-size: cover;
+}
+
+</style>
+</head>
+
+<body>
+<center><h1> -----UPLOAD YOUR ITEMS-----</h1>
+<br><br><br>
+<h2>
+<form>
+<table>
+<th> ADD YOU ITEM</th>
+
+<select id="item">  
+        <option value="">Select an item</option>  
+        <option value="PRINTER">PRINTER</option>  
+        <option value="TV">TV</option>  
+        <option value="FRIDGE">FRIDGE</option> 
+		<option value="SOFA SET">SOFA SET</option> 
+    </select>  
+   		<label id="show"></label>  
+    <script>  
+        let source = document.querySelector('#item');  
+        let target = document.querySelector('#show');  
+        source.addEventListener('change', function () {  
+            target.textContent = this.value;  
+        });  
+    </script>  
+		<tr>
+            <td><br></td>
+         </tr>
+   		<tr>
+           <th>Condition Chart</th>
+        <td><input type="radio" name="condition_chart" checked value="New"> &nbsp;&nbsp;New &nbsp; &nbsp;&nbsp;
+		<input type="radio" name="condition_chart" value="Almost New">&nbsp;&nbsp;Almost new &nbsp; &nbsp;&nbsp;
+		<input type="radio" name="condition_chart" value="Good">&nbsp;&nbsp;Good</td>       
+   		</tr>
+		<tr>
+            <td><br></td>
+         </tr>
+         <tr>
+            <th>Image</th>
+            <td><input type="file" name="images"></td>
+         </tr>
+   		<tr>
+            <td><br></td>
+         </tr>
+    
+   		<tr>
+   			<th>Number of Items</th>
+   			<td><input type="number" name="no:of items"></td>
+   		</tr>
+		<tr>
+            <td><br></td>
+         </tr>
+
+   		<tr>
+   			<th>Sale Amount</th>
+   			<td><input type="number" name="samount"></td>
+   		</tr>
+		<tr>
+            <td><br></td>
+         </tr>
+	
+		<tr>
+   			
+   			<td><input type="submit" name="SUBMIT" value="SUBMIT"></td>
+   		</tr>
+		<tr>
+            <td><br></td>
+         </tr>
+         
+        
+   
+    
+   	</table>
+   </form>
+   </h2>
+   </center>
+   
+   </body>
+   </html>
