@@ -1,0 +1,107 @@
+<! DOCTYPE html>  
+<html>  
+  
+<head>  
+
+<style>  
+h2 {  
+  font-weight: bold;  
+  margin-bottom: 2.5rem;  
+  color: #aaa;  
+  align: center;  
+  font-size: 30px;  
+  margin-top: 1.5rem;  
+  font-weight: 1000;  
+}  
+p {  
+font-weight: bold;  
+  margin-bottom: 2.5rem;  
+  color: #aaa;  
+  align: center;  
+  font-size: 20px;  
+  margin-top: 1.5rem;  
+  font-weight: 1000;  
+}  
+h3 {  
+  font-weight: bold;  
+  margin-bottom: 2.5rem;  
+  color: #aaa;  
+  align: center;  
+  font-size: 30px;  
+  margin-top: 1.5rem;  
+  font-weight: 1000;  
+}  
+body {  
+  background: #191828;  
+ color: #aaa;  
+  font-family: "Roboto", Arial, Helvetica, sans-serif;  
+  font-size: 16px;  
+  font-weight: 300;  
+  letter-spacing: 0.01em;  
+  line-height: 1.6em;  
+  margin-top: 30;  
+   }  
+      
+  
+input[type='button'] {  
+  box-sizing: border-box;  
+  height: 35px;  
+  display: inline-block;  
+    
+  border-radius: 5px;  
+  padding: 0 15px;  
+  margin: 10px 0;  
+  transition: .2s;  
+}  
+#selectNow {  
+ box-sizing: border-box;  
+  height: 35px;  
+  display: inline-block;  
+  
+  border-radius: 5px;  
+  padding: 0 15px;  
+  margin: 10px 0;  
+  transition: .2s;  
+}  
+#selectNow:hover {  
+    
+    background-color: #aaa;  
+    font-weight: bold;  
+  opacity: 1;   
+}  
+em {  
+  font-family: Georgia, serif;  
+  line-height: 1.6;  
+}  
+input[type='button']:hover {  
+      
+    background-color: #3494e6;  
+}  
+</style>  
+   <body>  
+   <h3 align="center"> TECHNICAL APTITUDE EXAM </h3>            
+               <h2 align="center"> Select your Semester!! </h2>                                  
+                  <form id = "selectform" align = "center">  
+         <select id = "selectNow">  
+            <option value = "one"> One </option>  
+            <option value ="two" > Two </option>  
+           <option value ="three" > Three </option>  
+    <option value ="four" > Four </option>  
+    <option value ="five" > Five </option>  
+    <option value ="six" > Six </option>  
+     
+         </select>  
+         <input type = "button" onclick = "remove()" value = "Click to Remove" > 
+		 <br><br>
+		 
+<input type = "button" onclick = "remove()" value = "ENTER" > 		 
+      </form>  
+      <p align="center"> <em> All the very best!! </em> </p>  
+     <script>  
+         function remove() {  
+            var x = document.getElementById("selectNow");  
+            x.remove(x.selectedIndex);  
+         }  
+      </script>  
+     </body>  
+</html>  
