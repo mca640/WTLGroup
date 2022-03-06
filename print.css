@@ -1,0 +1,26 @@
+body{
+  background-color: #c5cae9;
+  padding: 25px;
+}
+
+.container{
+  width: 1100px;
+  height: 500px;
+  margin: 0 auto;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 50px;
+  border-radius: 12px;
+  background-color: #90a4ae;
+  font-family: Lato;
+}
+
+
+table{
+  margin: 0 auto;
+}
+
+td, th {
+  padding: 12px;
+  border:none;
+}
