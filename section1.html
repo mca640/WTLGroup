@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Email Validation using javascript</title>
+
+<style type="text/css">    
+   
+            
+body{
+    background-image:url("images/login.png");
+    background-size: cover;
+}
+
+
+
+        }    
+        input[type="text"] {    
+            width: 250px;    
+        } 
+
+        form{    
+            text-align: right;    
+            font-family: Calibri;    
+            font-size: 20px;    
+               
+            width: 600px;    
+            margin: 20px auto;    
+        }       
+</style>
+
+<script type="text/javascript">
+function emailvalidation() {
+var emailValidationRegularExpression = /^[A-Za-z0-9 ]+$/
+
+var validation = emailValidationRegularExpression.test(document.getElementById("email").value);
+if (!validation) {
+alert("OK, validation contains Special Characters.");
+} else {
+alert("Not Ok, Does not contain Special Characters.");
+}
+return validation;
+}
+</script>
+</head>
+<body>
+    <form>
+        <center>  
+        <h2>REGISTER</h2>    
+        <table>    
+            <tr>    
+                <td><label>First Name: </label></td>    
+                <td>    
+                    <input type="text"  name="fname" placeholder="First Name">    
+                </td>    
+            </tr>    
+            <tr>    
+                <td><label>Last Name: </label></td>    
+                <td>    
+                    <input type="text"  name="lname" placeholder="Last Name">    
+                </td>    
+            </tr>    
+            
+            <tr>    
+                <td><label>Gender: </label></td>    
+                <td>    
+                    <input type="radio" name="gender" value="male">Male    
+                    <input type="radio" name="gender" value="femele">Female    
+                </td>    
+            </tr>    
+            <tr> 
+                <td><label>EMAIL ID: </label></td>  
+                <td>
+                <input type="text" id="email" >
+
+<input type="button" value="check Email" onclick="emailvalidation()">
+</td>
+                   
+            </tr>    
+            <tr>    
+                <td><label>Mobile: </label></td>    
+                <td>    
+                    <input type="number" name="mobile">    
+                </td>    
+            </tr>   
+
+
+
+             <tr>    
+                <td><label>Username: </label></td>    
+                <td>    
+                    <input type="text" name="username">    
+                </td>    
+            </tr>  
+
+
+                 <tr>    
+                <td><label>Password: </label></td>    
+                <td>    
+                    <input type="password" name="psw">    
+                </td>    
+            </tr>   
+ 			
+            
+            <tr>    
+                <td>    
+                    <input type="submit" name="submit" value="Submit">    
+                    
+                </td>    
+            </tr>             
+        </table> 
+    </center>   
+    </form>
+
+
+
+
+
+</body>
+</html>
