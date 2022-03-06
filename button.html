@@ -1,0 +1,137 @@
+<html>
+<head> 
+<style type="text/css">
+
+*{
+padding: 2px;
+margin: 2px;;
+font-family;sans-serif;
+}
+body{
+    background-image:url("image/coin.jpg");
+    background-size: cover;
+} 
+</style>
+<script>  
+function choice() {  
+ 
+var mylist = document.getElementById("myAns");  
+var result = mylist.options[mylist.selectedIndex].text;  
+  if (result == 'No') {  
+      
+    document.getElementById("csharp").disabled = true;  
+    document.getElementById("js").disabled = true;  
+    document.getElementById("angular").disabled = true;  
+  } else {  
+      
+    document.getElementById("csharp").disabled = false;  
+    document.getElementById("js").disabled = false;  
+    document.getElementById("angular").disabled = false;  
+  }  
+}  
+</script>  
+ </head> 
+<body>
+<center>  
+<h2> STUDENT EDUCATION LOAN</h2>  
+<form>  
+ <table>
+    <tr>
+        <td><br></td>
+     </tr>
+<tr>
+<td>NAME:</td>
+<td><input type="text" placeholder="Name">
+</td>
+</tr>
+<tr>
+    <td><br></td>
+ </tr>
+
+<tr>
+<td>GENDER:</td>
+<td><input type="radio" name="gender">MALE
+<input type="radio" name="gender">FEMALE
+</td>
+</tr>
+<tr>
+    <td><br></td>
+ </tr>
+
+<tr>
+<td>DATE OF BIRTH:</td>
+<td><input type="date">
+</td>
+</tr>
+
+<tr>
+    <td><br></td>
+ </tr>
+<tr>
+ <td>COURSE:</td>
+ <td><input type="text" placeholder="course">
+ </td>
+ </tr>
+<tr>
+    <td><br></td>
+ </tr
+<tr>
+ <td>COURSE DURATION:</td>
+ <td><input type="number" placeholder="duration">
+ </td>
+ </tr>
+ <tr>
+    <td><br></td>
+ </tr
+<tr>
+<td>PHONE NUMBER:</td>
+<td><input type="phone" placeholder="91.....">
+</td>
+</tr>
+<tr>
+    <td><br></td>
+ </tr>
+<tr>
+<td>EMAIL-ID:</td>
+<td><input type="email" placeholder="@gmail.com">
+</td>
+</tr>
+<tr>
+    <td><br></td>
+ </tr>
+ <tr>
+ <td>LOAN AMOUNT REQUIRED:</td>
+ <td><input type="number" placeholder="amount">
+ </td>
+ </tr>
+ <tr>
+    <td><br></td>
+ </tr>
+ <tr>
+
+
+</form>
+</table>
+
+
+<th> Are you working? </th>  
+<select id = "myAns" onchange = "choice()" >  
+<option value="choose"> --choose -- </option>  
+<option value="yes"> Yes </option>  
+<option value="no"> No </option>  
+</select>  
+ 
+  
+<p> <b> If Yes, Choose language your preferred programming Language</b> </p>  
+ <br><br>
+<label> <input type="radio" name="programming" id="csharp" value= "csharp"> BUSINESS </label>  
+<label> <input type="radio" name="programming" id="js" value= "js"> ENTERPRENUER </label>  
+<label> <input type="radio" name="programming" id="angular" value= "angular"> TEACHER </label>  
+<br><br>
+  <input type="submit" value="Submit" onclick="calValue()"> 
+ 
+
+
+
+</body>  
+</html> 
